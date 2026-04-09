@@ -1,0 +1,67 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  type?: string;
+}
+
+const {
+  title = "Eric Rhodes",
+  description = "Researching AI, labor, and the future of work.",
+  image = "/images/og.png",
+  type = "website",
+} = Astro.props;
+
+const fullTitle =
+  title === "Eric Rhodes" ? title : `${title} | Eric Rhodes`;
+
+const canonicalURL = Astro.site
+  ? new URL(Astro.url.pathname, Astro.site).toString()
+  : Astro.url.toString();
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content={Astro.generator} />
+
+<link rel="stylesheet" href="https://use.typekit.net/dby2cjd.css" />
+
+<title>{fullTitle}</title>
+
+<meta name="description" content={description} />
+
+<!-- Open Graph -->
+<meta property="og:type" content={type} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={image} />
+<meta property="og:url" content={canonicalURL} />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+
+<!-- Canonical -->
+<link rel="canonical" href={canonicalURL} />
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" href="/rss.xml" />
+
+<!-- Theme color -->
+<meta name="theme-color" content="#1e90ff" />
+
+<script is:inline>
+  const storedTheme = localStorage.getItem("theme");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  const theme = storedTheme || (prefersDark ? "dark" : "light");
+
+  if (theme === "dark") {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+</script>

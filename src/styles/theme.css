@@ -1,0 +1,40 @@
+:root {
+  --content-bg: #ffffff;
+  --content-text: #000000;
+  --hr: #c0c0c0;
+  --content-footer: #7e7e7e;
+  --tag-hover: #eaeaea;
+  --tag-color: #000000;
+  --tag-hover-color: #000000;
+  --tag-quiet-bg: #f3f3f3;
+  --tag-quiet-color: #666666;
+  --tag-quiet-hover-bg: #e7e7e7;
+  --tag-quiet-hover-color: #000000;
+  --project-stack-bg: #ebe7e1;
+  --accent: #c0c0c0;
+  --a-color: #7e7e7e;
+  --font-sans: "neue-haas-grotesk-text", sans-serif;
+  --font-display: "neue-haas-grotesk-display", sans-serif;
+  --social-icon: #333333;
+  --social-icon-hover: #c0c0c0;
+  --intro-color: #333333;
+}
+
+.dark {
+  --content-bg: #333333;
+  --content-text: #ffffff;
+  --hr: #7e7e7e;
+  --content-footer: #7e7e7e;
+  --tag-hover: #3f3f3f;
+  --tag-color: #ffffff;
+  --tag-hover-color: #ffffff;
+  --tag-quiet-bg: #444444;
+  --tag-quiet-color: #bdbdbd;
+  --tag-quiet-hover-bg: #555555;
+  --tag-quiet-hover-color: #ffffff;
+  --project-stack-bg: #2a2a2a;
+  --a-color: #c0c0c0;
+  --social-icon: #ffffff;
+  --social-icon-hover: #c0c0c0;
+  --intro-color: #c0c0c0;
+}

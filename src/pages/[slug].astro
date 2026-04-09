@@ -1,0 +1,55 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('writing');
+
+  return posts.map((post) => ({
+    params: {
+      slug: post.data.slug || post.id.replace('.md', ''),
+    },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BaseLayout title={post.data.title}>
+  <h1 class="post-title">{post.data.title}</h1>
+
+  {post.data.subtitle && (
+    <h2 class="post-subtitle">{post.data.subtitle}</h2>
+  )}
+
+  {post.data.date && (
+    <p class="post-meta">
+      {post.data.date.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric'
+      })}
+    </p>
+  )}
+
+  <hr />
+
+  <article>
+    <Content />
+  </article>
+
+  <hr />
+
+<p class="post-meta">
+  A version of this
+  {post.data.type && <span class="type"> {post.data.type}</span>}
+  {(post.data.type || post.data.publisher) && " "}
+  {post.data.publisher && post.data.original_url && (
+    <span>
+      was originally published on {post.data.publisher} at the canonical URL: {post.data.original_url}
+    </span>
+  )}
+</p>
+</BaseLayout>

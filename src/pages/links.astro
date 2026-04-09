@@ -1,0 +1,39 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import IconEmail from "../assets/icons/iconEmail.svg";
+import IconGithub from "../assets/icons/iconGithub.svg";
+import IconX from "../assets/icons/iconX.svg";
+import IconLinkedIn from "../assets/icons/iconLinkedIn.svg";
+import IconVerify from "../assets/icons/iconVerify.svg";
+---
+
+<BaseLayout title="Links">
+  <section class="links-stack" aria-labelledby="links-heading">
+    <header class="links-stack__intro">
+      <img class="links-stack__avatar" src="/favicon.png" alt="Second Realm icon" width="96" height="96" />
+      <h1 id="links-heading">@secondrealm</h1>
+      <p>curious, creative, &amp; ever-evolving &#x1F331;</p>
+      <nav class="links-stack__social" aria-label="Social links">
+        <a href="mailto:secondrealm@gmail.com" aria-label="Email"><IconEmail /></a>
+        <a href="/verify" aria-label="Verify"><IconVerify /></a>
+        <a href="https://github.com/secondrealm" aria-label="GitHub"><IconGithub /></a>
+        <a href="https://x.com/secondrealm" aria-label="X"><IconX /></a>
+        <a href="https://linkedin.com/in/secondrealm" aria-label="LinkedIn"><IconLinkedIn /></a>
+      </nav>
+    </header>
+
+    <ul class="links-stack__list">
+      <li><a class="links-stack__item" href="">life^ART</a></li>
+      <li><a class="links-stack__item" href="">superrare</a></li>
+      <li><a class="links-stack__item" href="">mortal prophet (agentic art collective)</a></li>
+      <li><a class="links-stack__item" href="">art + tech</a></li>
+      <li><a class="links-stack__item" href="">ai + work - research notes</a></li>
+      <li><a class="links-stack__item" href="">future of work lab</a></li>
+      <li><a class="links-stack__item" href="">writing about art, life, and tech</a></li>
+      <li><a class="links-stack__item" href="">homepage of eric p. rhodes</a></li>
+      <li><a class="links-stack__item" href="">nft platforms + contracts</a></li>
+      <li><a class="links-stack__item" href="">full art catalog (sheet)</a></li>
+      <li><a class="links-stack__item" href="">trust, but verify</a></li>
+    </ul>
+  </section>
+</BaseLayout>

@@ -1,17 +1,164 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import profile from "../assets/images/ericrhodes-pfp.png";
+import { ArrowRight, Palette } from '@lucide/astro';
+import { Sparkles } from '@lucide/astro';
+import { TestTubeDiagonal } from '@lucide/astro';
+import { Bot } from '@lucide/astro';
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Home">
+
+<!-- INTRO SECTION -->
+
+<section class="intro">
+
+  <Image src={profile} alt="Eric Rhodes" width={200} height={200} class="avatar" loading="eager" />
+
+  <div>
+    
+    <h1>I'm @secondrealm</h1>
+
+    <p>this is my digital sandbox &#x2014; a place to build in public, share works-in-progress, and archive past projects</p>
+
+    <div class="tags tags--quiet">
+      <a href="">Artist <Palette /></a>
+      <a href="">Designer <Sparkles /></a>
+      <a href="">Researcher <TestTubeDiagonal /></a>
+      <!-- <a href="">Technologist <Bot /></a> -->
+    </div>
+
+  </div>
+
+</section>
+
+<hr />
+
+<!-- INTERESTS -->
+
+<h2>Interests</h2>
+
+<ul>
+
+<li>Exploring impact of AI on the <a href="https://futureofworklab.org">future of work</a> &#x2014; how adoption is really an organizational design problem (second-order effects, incentives, power, and agency)</li>
+
+<li>Using human-centered design methodologies (UX, CX, service design) to make emerging tech <a href="https://legacy.secondrealm.com/posts/technourishment/">more humane</a></li>
+
+<li>Making connections and understanding the <a href="https://paragraph.com/@epr/the-art-of-interdisciplinary-thinking">Interdisciplinary</a> relationships between <a href="https://paragraph.com/@epr/my-artistic-foundations">seemingly</a> <a href="https://paragraph.com/@epr/on-becoming-a-designer">unrelated</a> philosophies, topics, and ideas</li>
+
+<li>Creating <a href="https://paragraph.com/@epr/when-art-became-social">Networked art</a> and exploring internet culture <a href="https://paragraph.com/@epr/the-speed-of-art%2C-memes-and-value-in-web3">as a medium</a> and the weird new <a href="http://legacy.secondrealm.com/posts/zombie-futurism/">aesthetics</a> and <a href="https://legacy.secondrealm.com/posts/trash-art-history/">behaviors</a> it produces</li>
+
+<li><a href="https://legacy.secondrealm.com/posts/cryptopunks-copyright-legal-experts/">Digital ownership</a> and <a href="https://paragraph.com/@epr/nothing-is-original">remix culture</a>—art law, IP, CC0, and decentralized systems (blockchain/Web3) as experiments in coordination and meaning</li>
+
+<li>Yankees, <a href="https://baseballanalytics.com/best-baseball-analytics-books/">baseball analytics</a>, <a href="https://www.reddit.com/r/homelab/">home labs</a>, fantasy <a href="https://en.wikipedia.org/wiki/A_Discovery_of_Witches_(TV_series)">series</a> <a href="https://en.wikipedia.org/wiki/The_Magicians_(American_TV_series)">with</a> <a href="https://en.wikipedia.org/wiki/American_Horror_Story:_Coven">witches</a>, <a href="https://en.wikipedia.org/wiki/The_Art_of_the_Steal_(2009_film)">art heist documentaries</a>, <a href="https://www.subwayalumni.com/1988-national-championship/">Notre Dame football</a>, and college sports in general</li>
+
+</ul>
+
+<hr />
+
+
+<!-- THREADS I'M PULLING ON -->
+<section class="threads">
+  <h2>Threads I'm Pulling On</h2>
+  <p>Free-range exploration&#x2014;open-ended concepts I'm exploring sparked by patterns I notice in the world, without the weight of a defined goal or specific outcome.</p>
+  <ul>
+    <li>
+      <a href="/humanities" target="_blank" rel="noopener">Humanities in the Era of Agentic AI</a>: As AI absorbs repeatable work, the differentiators become more human, sensemaking, judgment, communication, empathy, and navigating social dynamics alongside technical complexity.
+    </li>
+    <li>
+      <a href="/cultural-residue" target="_blank" rel="noopener">Cultural Residue in a Digital World</a>: What's left after a moment passes, the traces that survive and carry meaning later (ephemera, errata, and marginalia). What I'm chasing is what happens to that residue in a digital world where things don't decay or disappear the same way, they persist but become buried, unsurfaced, and functionally missing, and where the “original moment” can keep existing in full form, changing how we remember, revisit, and move on.
+    </li>
+    <li>
+      <a href="/improving-emotional-literacy-through-art" target="_blank" rel="noopener">Improving Emotional Literacy Through Art</a>: A way of using art to get better at noticing and naming what I’m actually feeling. The idea is to map emotions onto visual and symbolic forms (color, flowers, simple motifs) so my emotional vocabulary gets more precise. It blends journaling, a bit of mindfulness, digital art-making, and emotional intelligence research into a practical way to understand and express complicated emotions.
+    </li>
+  </ul>
+</section>
+
+<hr />
+
+<!-- SHORT BIO -->
+
+<section class="short-bio">
+
+<h2>Me, in 60 Seconds</h2>
+
+<p>Creative technologist, systems thinker, and digital artist. Designing and building across multiple waves of technological innovation&#x2014;social platforms and smartphones, connected devices and assistants, crypto/Web3 (blockchain and NFTs), and now LLMs and agentic AI.</p>
+
+<p>Background in human-centered design, customer experience, user research, digital strategy, support/operations, and startup advising. Undergraduate degrees in industrial relations and computer science with extended studies in visual arts. Graduate research on AI adoption and the future of work.</p>
+
+<p>The through-line is a restless, polymathic curiousity for where socio-technical complexity meets human behavior. I focus on how emerging tech can improve the human experience, and on the work of integrating it mindfully in the real world. The stakes just keep rising.</p>
+
+<ul class="tags tags--quiet">
+  <!-- <li>M.Phil., Penn '27 (expected)</li> -->
+  <li>M.L.E.R., Rutgers '25</li>
+  <li>B.S., Rutgers (summa cum laude)</li>
+  <li>Google ATAP</li>
+  <li>Google Hardware</li>
+  <li>Twitter</li>
+</ul>
+
+<p>New Jersey born and raised. Son of an Italian immigrant mother and fire rescue captain father.</p>
+
+<div class="tags tags--intro">
+  <!-- <a class="tag-link" href="/about">Me, in 10 Minutes <ArrowRight /></a>   -->
+  <a class="tag-link" href="/now">What I'm Doing Now <ArrowRight /></a>
+</div>
+
+</section>
+
+<hr />
+
+
+<!-- DEEP WORK -->
+
+<h2>The Learning Lab</h2>
+
+<p><a href="https://paragraph.com/@epr/the-best-career-advice-i-received">Best advice I ever got</a> was from a book. It kicked off a self-education journey that <a href="https://youtu.be/R8artJcUSEo?t=15">changed my stars</a> forever.</p>
+
+<h3>Currently Reading</h3>
+
+<ul>
+  <li>
+    <a href="#">Sensemaking: The Power of the Humanities in the Age of the Algorithm</a> by Christian Madsbjerg: Early in my UX design career, this book single-handedly changed how I viewed my background in the arts. Recently, I've seen discussion around how AI brings back the need for a humanities-based education. I couldn't agree more. I'm rereading this book to remind me of what I may have forgotten.
+  </li>
+  <li>
+    <a href="#">The End of the World Is Just the Beginning: Mapping the Collapse of Globalization</a> by Peter Zeihan: I like to listen to audio books when I exercise. I choose books with topics that I can learn about that don't require a lot of cognitive demand or skills-based integration.
+  </li>
+</ul>
+
+<h4>Top 5</h4>
+
+<ul>
+  <li>Zen and the Art of Motorcycle Mainteanance by Robert M. Pirsig</li>
+  <li>The Design of Every Day Things by Don Norman</li>
+  <li>Sensemaking: The Power of the Humanities in the Age of the Algorithm by Christian Madsbjerg</li>
+  <li>Setting the Table: The Transforming Power of Hospitality in Business by Danny Meyer</li>
+  <li>The Count of Monte Cristo by Alexandre Dumas</li>
+</ul>
+
+<hr />
+
+
+<!-- PROJECTS -->
+
+<section>
+  <h2>Some Projects</h2>
+  <ul>
+    <li><a href="https://x.com/mortalprophet/media" target="_blank" rel="noopener">Mortal Prophet</a>: Agentic Art, 2026. A collaborative worldbuilding practice between Second Realm and Iris Dayrise, exploring artifacts, narratives, and synthetic myth through iterative dialogue.</li>
+    <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255065" target="_blank" rel="noopener">Measuring the Human Experience of AI in the Workplace</a>: Research, 2025. Led a mixed-methods study of 299 workers that found the deeper anxiety around workplace AI is often not replacement, but the loss of agency over how systems are used.</li>
+    <li><a href="https://paragraph.com/@epr/primitives-dot-art" target="_blank" rel="noopener">Primitives (PRIM)</a>: Networked Art, 2024. Developed a visual language and onchain framework for encoding emotion, color, and structure so artworks could be explored through their underlying ingredients.</li>
+    <li><a href="https://www.notion.so/ericprhodes/Prototype-Personas-1d77e64e2ed0805b8aa5c2fbf91100ab" target="_blank" rel="noopener">AI Proto-Personas</a>: Experiment, 2023. Used AI to generate rich market-research personas while documenting the exact places simulated users break down compared to grounded audience research.</li>
+    <li><a href="https://secondrealm.com/6h05t.net/index.php" target="_blank" rel="noopener">The Society</a>: Speculative Fiction, 2023. Co-created a serialized fiction project with a stack of AI writing tools to test whether generative systems amplify storytelling craft or merely imitate it.</li>
+    <li><a href="https://unofficialpunks.secondrealm.com" target="_blank" rel="noopener">Unofficial Punks</a>: Web3, 2021. Created an NFT project that helped spark the AltPunks movement and pushed remix culture, authorship, and internet-native aesthetics into new territory.</li>
+    <li><a href="https://medium.com/secondrealm/introducing-tatr-a-social-liquidity-mining-token-in-the-nft-art-space-1822cc9122f1" target="_blank" rel="noopener">$TATR Social</a>: Protocol, 2020. An early SocialFi experiment designed to reward the circulation and distribution of NFT art through peer-to-peer social engagement.</li>
+  </ul>
+
+  <div class="tags tags--intro">
+  <a class="tag-link" href="/projects">More Projects <ArrowRight /></a> 
+</div>
+
+</section>
+
+</BaseLayout>

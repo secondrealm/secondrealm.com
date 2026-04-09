@@ -1,0 +1,53 @@
+@import "./components.css";
+@import "./typography.css";
+@import "./theme.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  background: #333333; /* IMPORTANT: keep this EXACT */
+  font-size: 16px;
+  letter-spacing: .02rem;
+  word-spacing: .02rem;
+}
+
+/* PAGE FRAME (this is what you lost) */
+.page {
+  background: var(--accent);
+  padding: 1rem 0;
+}
+
+/* CONTAINER (critical for alignment) */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* LINKS */
+a {
+  color: var(--a-color);
+  text-decoration: underline dotted;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+li {
+  padding-bottom: .75rem;
+}
+
+/* HR */
+hr {
+  border: none;
+  border-top: 1px solid var(--hr);
+  margin: 1.5rem 0 0 0;
+  opacity: 0.35;
+}

@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = await getCollection('writing');
+
+// SAFE DEBUG
+const testPost = posts.find(
+  p => (p.data.slug || p.id.replace('.md', '')) === 'the-society-chapter-1'
+);
+
+console.log('DEBUG POST:', testPost);
+
+// newest first
+posts.sort((a, b) => {
+  const dateA = a.data.date?.getTime?.() ?? 0;
+  const dateB = b.data.date?.getTime?.() ?? 0;
+  return dateB - dateA;
+});
+---
+
+<BaseLayout title="Archive">
+  <h1>
+    Archive <span>({posts.length} posts)</span>
+  </h1>
+
+  <ul class="archive-list">
+    {posts.map((post) => {
+      const slug = post.data.slug || post.id.replace('.md', '');
+
+      return (
+        <li class="post-archive">
+          <a href={`/${slug}`}>
+            {post.data.title}
+          </a>
+          {post.data.type && (
+            <span class="post-meta"> ({post.data.type})</span>
+          )}
+        </li>
+      );
+    })}
+  </ul>
+</BaseLayout>

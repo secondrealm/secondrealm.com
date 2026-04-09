@@ -22,3 +22,22 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+
+# raw files
+raw/
+working/
+scripts/
+secondrealm.WordPress.2024-06-02.xml
+src/styles/global_old.css
+convert_substack_to_md.py
+convert_to_unicode.py
+file_compare.py
+fix_title.py
+list_of_file_names.py
+list_of_titles.py
+naturalize_subtitles.py
+normalize_titles.py
+number_of_files.py
+validate_content.py
+wp_to_md.py

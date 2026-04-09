@@ -1,0 +1,57 @@
+---
+import IconSearch from "../assets/icons/iconSearch.svg";
+import IconLight from "../assets/icons/iconLight.svg";
+import IconDark from "../assets/icons/iconDark.svg";
+---
+
+<header class="site-header">
+
+  <div class="container nav">
+
+    <div class="site-title">
+      <a href="/">Eric Rhodes</a>
+    </div>
+
+    <nav class="nav-links"> 
+      <!--  <a href="/now">now</a>
+      <a href="/writing">writing</a>
+      <a href="/about">about</a>
+
+      <a href="/search" class="icon">
+        <IconSearch />
+      </a> -->
+
+      <button id="theme-toggle" class="theme-toggle icon">
+        <span class="icon-light"><IconLight /></span>
+        <span class="icon-dark"><IconDark /></span>
+      </button>
+
+    </nav>
+
+  </div>
+
+</header>
+
+<script is:inline>
+  const toggle = document.getElementById('theme-toggle');
+
+  function syncIcons() {
+    const isDark = document.documentElement.classList.contains('dark');
+
+    document.querySelector('.icon-light').style.display = isDark ? 'none' : 'block';
+    document.querySelector('.icon-dark').style.display = isDark ? 'block' : 'none';
+  }
+
+  syncIcons();
+
+  toggle?.addEventListener('click', () => {
+    const html = document.documentElement;
+
+    html.classList.toggle('dark');
+
+    const isDark = html.classList.contains('dark');
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+
+    syncIcons();
+  });
+</script>

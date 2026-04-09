@@ -1,0 +1,50 @@
+---
+import { Image } from "astro:assets";
+import IconEmail from "../assets/icons/iconEmail.svg";
+import IconGithub from "../assets/icons/iconGithub.svg";
+import IconX from "../assets/icons/iconX.svg";
+import IconLinkedIn from "../assets/icons/iconLinkedIn.svg";
+import IconVerify from "../assets/icons/iconVerify.svg";
+import logo from "../assets/images/secondrealm-pfp.png";
+---
+
+<footer class="site-footer">
+
+  <div class="container footer-inner">
+
+    <div class="footer-brand">
+
+      <Image
+        src={logo}
+        alt="Second Realm"
+        width={28}
+        height={28}
+        class="footer-logo"
+        loading="eager"
+      />
+
+      <div class="footer-text">
+        <span class="brand-title">SΞCONĐ RΞΛLM V3.0</span>
+
+        <span class="brand-sub">
+          <a href="https://github.com/secondrealm/secondrealm.com">
+            Steal this post ➜ CC BY 4.0 · Code MIT
+          </a>
+        </span>
+      </div>
+
+    </div>
+
+    <div class="footer-icons">
+
+      <a href="mailto:secondrealm@gmail.com"><IconEmail /></a>
+      <a href="/verify"><IconVerify /></a>
+      <a href="https://github.com/secondrealm"><IconGithub /></a>
+      <a href="https://x.com/secondrealm"><IconX /></a>
+      <a href="https://linkedin.com/in/secondrealm"><IconLinkedIn /></a>
+
+    </div>
+
+  </div>
+
+</footer>
