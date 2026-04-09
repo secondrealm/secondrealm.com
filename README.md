@@ -1,43 +1,55 @@
-# Astro Starter Kit: Minimal
+# Eric Rhodes' Personal Website
 
-```sh
-npm create astro@latest -- --template minimal
-```
+The codebase for my personal website — a digital sandbox to build in public, share works-in-progress, and archive past projects.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+It's built with [Astro](https://astro.build) and deployed on [Vercel](https://vercel.com)
 
-## 🚀 Project Structure
+## About
 
-Inside of your Astro project, you'll see the following folders and files:
+I'm Eric Rhodes (@secondrealm), I'm an artist, designer, and researcher. This site is the home for my writing, projects, research, and other public-facing work.
+
+
+## Project Structure
 
 ```text
 /
-├── public/
+├── public/            # Static assets (images, fonts, favicon)
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── assets/        # Icons and images used in components
+│   ├── components/    # UI components
+│   ├── content/       # Main site content
+│   │   └── writing/   # Historiacal rchive of writing with cannonical links
+│   ├── layouts/       # Page layouts and templates
+│   ├── pages/         # Site pages
+│   └── styles/        # Global styles and CSS
+├── package.json       # Dependencies and scripts
+└── astro.config.mjs   # Astro configuration
+└── LICENSE            # Dual license (CC BY 4.0 + MIT)
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Commands
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+All commands are run from the root of the project:
 
-Any static assets, like images, can be placed in the `public/` directory.
+| Command | Action |
+| :-- | :-- |
+| `npm install` | Install dependencies |
+| `npm run dev` | Start local development server |
+| `npm run build` | Build the site for production |
+| `npm run preview` | Preview the production build locally |
 
-## 🧞 Commands
+## Content
 
-All commands are run from the root of the project, from a terminal:
+Writing is stored in `src/content/writing/` as Markdown files.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+The site uses Astro content collections to organize and render posts.
 
-## 👀 Want to learn more?
+## Licensing
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Code in this repository is licensed under the MIT License.
+
+Written content is licensed under CC BY 4.0 unless otherwise noted.
+
+## Notes
+
+This repository contains the website source code and published site content.
