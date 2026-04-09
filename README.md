@@ -6,7 +6,7 @@ It's built with [Astro](https://astro.build) and deployed on [Vercel](https://ve
 
 ## About
 
-I'm Eric Rhodes (@secondrealm), I'm an artist, designer, and researcher. This site is the home for my writing, projects, research, and other public-facing work.
+I'm Eric Rhodes ([@secondrealm](https://x.com/secondrealm)), I'm an artist, designer, and researcher. This site is the home for my writing, projects, research, and other public-facing work.
 
 
 ## Project Structure
@@ -37,12 +37,6 @@ All commands are run from the root of the project:
 | `npm run dev` | Start local development server |
 | `npm run build` | Build the site for production |
 | `npm run preview` | Preview the production build locally |
-
-## Content
-
-Writing is stored in `src/content/writing/` as Markdown files.
-
-The site uses Astro content collections to organize and render posts.
 
 ## Licensing
 
