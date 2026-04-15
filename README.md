@@ -25,6 +25,7 @@ I'm Eric Rhodes ([@secondrealm](https://x.com/secondrealm)), I'm an artist, desi
 ├── package.json       # Dependencies and scripts
 └── astro.config.mjs   # Astro configuration
 └── CHANGELOG          # Notable changes to the project documented here
+└── VERIFY             # Official socials and cryptographic proof of human
 └── LICENSE            # Dual license (CC BY 4.0 + MIT)
 ```
 
