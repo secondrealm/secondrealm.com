@@ -181,7 +181,11 @@ Given that Cal is a highly-regarded academic who used these methods in his own p
 ## Book Details
 
 Title: Deep Work: Rules for Focused Success in a Distracted World
+
 Author: Cal Newport
+
 Format: Hardcover
-ISBN 10: 1455586692  
+
+ISBN 10: 1455586692
+
 ISBN 13: 9781455586691
