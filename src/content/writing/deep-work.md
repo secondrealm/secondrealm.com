@@ -3,7 +3,7 @@ title: Deep Work by Cal Newport
 subtitle: Rules for Focused Success in a Distracted World
 date: '2026-04-15'
 slug: deep-work
-type: notes
+type: book note
 topics:
 - web3
 - art
