@@ -5,30 +5,26 @@ date: '2026-04-15'
 slug: deep-work
 type: book note
 topics:
-- web3
-- art
-- technology
+  - productivity
+  - work
+  - learning
 tags:
-- decentralization
-- nft
-- crypto art
-- ownership
-- governance
-- artists
-excerpt: 'Decentralization isn\u2019t a binary\u2014it\u2019s a spectrum. This essay
-  explores how artists can navigate varying degrees of control, ownership, and community
-  in the Web3 art ecosystem.
-
-  '
+  - deep work
+  - focus
+  - attention
+  - cognition
+  - habits
+  - performance
+excerpt: 'Deep work is becoming increasingly rare and increasingly valuable. This reflection explores how cultivating focused attention can improve learning, performance, and long-term satisfaction in knowledge work.'
 publisher: Second Realm
 source: secondrealm.com
 original_url: https://www.secondrealm.com/deep-work
 status: raw
 ---
 
-## Reaction
+## Book Note
 
-### 24-hours after reading
+### Reaction: 24-hours after reading
 
 Books like this are what I call anchor books. Their existence on my book shelf represents an idea I was drawn to. 
 
@@ -180,3 +176,12 @@ Given that Cal is a highly-regarded academic who used these methods in his own p
 - page 109, Give and Take by Adam Grant 
 
 - page 160, Hamlet's BlackBerry by William Powers
+
+
+## Book Details
+
+Title: Deep Work: Rules for Focused Success in a Distracted World
+Author: Cal Newport
+Format: Hardcover
+ISBN 10: 1455586692  
+ISBN 13: 9781455586691
