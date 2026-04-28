@@ -364,6 +364,9 @@ h2.post-subtitle {
   color: var(--content-footer);
 }
 
+.main-footer a {
+  color: var(--content-footer);
+}
 /* =========================
    LINKS PAGE
 ========================= */
