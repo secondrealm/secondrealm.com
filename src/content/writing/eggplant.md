@@ -41,4 +41,10 @@ status: "raw"
 
 ### Description
 
-An eggplant emoji is not an eggplant. Online, it became a widely understood phallic symbol, showing how symbols can drift far from their literal origins. Emojis often function as a coded language shaped by humor, taboo, and shared recognition. This piece reflects on how digital culture transforms simple images into signals that communicate far more than they appear to say.
+An eggplant emoji is not an eggplant. 
+
+Online, it became a widely understood phallic symbol, showing how symbols can drift far from their literal origins. 
+
+Emojis often function as a coded language shaped by humor, taboo, and shared recognition. 
+
+This piece reflects on how digital culture transforms simple images into signals that communicate far more than they appear to say.
