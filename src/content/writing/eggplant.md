@@ -3,7 +3,7 @@ title: "The Treachery of Emojis"
 subtitle: "This is not an eggplant"
 date: "2026-04-29"
 slug: "eggplant"
-type: "art"
+type: "artwork"
 topics: ["digital culture", "communication", "visual language"]
 tags:
   [
