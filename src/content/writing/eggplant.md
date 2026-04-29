@@ -37,13 +37,7 @@ status: "raw"
 
 ## 🍆
 
----
-
-### Description
-
-An eggplant emoji is not an eggplant. 
-
-Online, it became a widely understood phallic symbol, showing how symbols can drift far from their literal origins. 
+Online, the eggplant emoji became a widely understood phallic symbol, showing how symbols can drift far from their literal origins. 
 
 Emojis often function as a coded language shaped by humor, taboo, and shared recognition. 
 
