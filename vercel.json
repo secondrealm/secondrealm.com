@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/verify",
+      "destination": "https://github.com/secondrealm/secondrealm.com/blob/main/VERIFY.MD",
+      "permanent": true
+    }
+  ]
+}
