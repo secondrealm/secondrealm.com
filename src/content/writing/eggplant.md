@@ -31,7 +31,7 @@ excerpt: >
 emoji: "🍆"
 publisher: "Second Realm"
 source: "secondrealm.com"
-original_url: "https://secondrealm.com/paperclip"
+original_url: "https://secondrealm.com/eggplant"
 status: "raw"
 ---
 
