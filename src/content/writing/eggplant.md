@@ -41,6 +41,14 @@ The eggplant emoji may be the most infamous example of how digital culture trans
 
 Emojis are not just visual elements. They’re globally recognized symbols.
 
-And they function as a kind of coded language shaped by humor, taboo, and shared understanding.
+And sometimes they function as a kind of coded language shaped by humor, taboo, and shared understanding.
 
-In this case, the eggplant emoji is a widely recognized phallic symbol online.
+Today, the eggplant emoji is a widely recognized phallic symbol online.
+
+This piece echoes René Magritte’s *The Treachery of Images, “This is not a pipe,”* where he points out that the image is not the object itself. He also noted that it would be a lie to write, “This is a pipe.”
+
+In this case, the treachery goes further.
+
+The eggplant emoji no longer even points to its original object. It now carries an entirely different meaning shaped through shared use.
+
+And still, it would be a lie to say, “This is an eggplant.”
