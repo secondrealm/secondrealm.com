@@ -44,5 +44,3 @@ Emojis are not just visual elements. They’re globally recognized symbols.
 And they function as a kind of coded language shaped by humor, taboo, and shared understanding.
 
 In this case, the eggplant emoji is a widely recognized phallic symbol online.
-
-This piece explores how digital culture transforms simple images into signals that communicate far more than they appear to on the surface.
