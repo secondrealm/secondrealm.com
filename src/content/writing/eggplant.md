@@ -37,8 +37,12 @@ status: "raw"
 
 ## 🍆
 
-Online, the eggplant emoji became a widely understood phallic symbol, showing how symbols can drift far from their literal origins. 
+The eggplant emoji may be the most infamous example of how digital culture transforms a simple icon into a signal that communicates far more than it appears to on the surface.
 
-Emojis often function as a coded language shaped by humor, taboo, and shared recognition. 
+Emojis are not just visual elements. They’re globally recognized symbols.
 
-This piece reflects on how digital culture transforms simple images into signals that communicate far more than they appear to say.
+And they function as a kind of coded language shaped by humor, taboo, and shared understanding.
+
+In this case, the eggplant emoji is a widely recognized phallic symbol online.
+
+This piece explores how digital culture transforms simple images into signals that communicate far more than they appear to on the surface.
