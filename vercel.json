@@ -4,7 +4,7 @@
       "source": "/verify",
       "destination": "https://github.com/secondrealm/secondrealm.com/blob/main/VERIFY.MD",
       "permanent": true
-    }
+    },
     {
       "source": "/unofficialpunks",
       "destination": "https://unofficialpunks.secondrealm.com",
